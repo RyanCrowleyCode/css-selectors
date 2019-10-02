@@ -50,13 +50,13 @@ div.parent > div :nth-child(3) {
 /* The sibling h4 of the red element should have a background color of red. */
 
 div.parent > div :first-child + h4 {
-    color: red;
+    background-color: red;
 }
 
 /* 
 /* The sibling h4 of the blue element should have background color of blue. */
 div.parent > div :nth-child(3) + h4 {
-    color: blue;
+    background-color: blue;
 }
 
 /* 
