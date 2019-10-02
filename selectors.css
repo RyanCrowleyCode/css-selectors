@@ -75,6 +75,6 @@ div.parent > div :nth-child(3) + h4 {
 
 /* 
 Without adding any other attributes to the input fields in the footer, write a CSS selector that makes any text input field have a height of 25px. */ 
-footer span input[type=text] {
+footer span input {
     height: 25px;
 }
